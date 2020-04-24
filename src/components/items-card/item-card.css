@@ -1,0 +1,83 @@
+
+.food-easy-content{
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+}
+
+
+.food-easy-item-wrapper {
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    width: 100%;
+}
+
+.food-easy-noData {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.food-easy-item {
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+}
+
+.food-easy-item p {
+    padding-bottom: 5px;
+}
+
+.food-easy-item-image{
+    padding-bottom: 5px;
+}
+
+.food-easy-item-name{
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.food-easy-item-ingredient{
+    font-size: 14px;
+}
+
+.food-easy-item-cuisine{
+    font-style: italic;
+}
+
+.food-easy-item-price{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.food-easy-item-ratings{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.food-easy-item-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    border-top: 1px solid #ccc;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .food-easy-item-wrapper {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .food-easy-item  {
+        width: 25%;
+    }
+
+    .food-easy-content{
+        width: 75%;
+    }
+}

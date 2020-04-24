@@ -1,0 +1,114 @@
+{
+    "foodData": {
+        "foodItemsList": [
+            {
+                "itemId": 1,
+                "itemLabel": "Burger",
+                "itemImage": "",
+                "itemPrice": 100,
+                "ratings": 1,
+                "category": "Food",
+                "discountAvailable": "2% off",
+                "itemCuisine": "Fast food",
+                "itemIngredients":  "Tomato , Letuce, Onion"
+            },
+            {
+                "itemId": 2,
+                "itemLabel": "Pizza",
+                "itemImage": "",
+                "itemPrice": 1000,
+                "ratings": 4,
+                "category": "Food",
+                "discountAvailable": "2% off",
+                "itemCuisine": "Italian",
+                "itemIngredients": "Tomato , Corn, Onion"
+            },
+            {
+                "itemId": 3,
+                "itemLabel": "Cold drink",
+                "itemImage": "",
+                "itemPrice": 10,
+                "ratings": 2,
+                "category": "Beverage",
+                "itemCuisine": "Beverages",
+                "itemIngredients": "Cola"
+            },
+            {
+                "itemId": 4,
+                "itemLabel": "Nachos",
+                "itemImage": "",
+                "itemPrice": 500,
+                "ratings": 4,
+                "category": "Food",
+                "discountAvailable": "2% off",
+                "itemCuisine": "Italian",
+                "itemIngredients": "Tomato , Corn, Onion"
+            },
+            {
+                "itemId": 5,
+                "itemLabel": "Kadhai Paneer",
+                "itemImage": "",
+                "itemPrice": 500,
+                "ratings": 4,
+                "category": "Food",
+                "discountAvailable": "2% off",
+                "itemCuisine": "North Indian",
+                "itemIngredients": "Paneer"
+            },
+            {
+                "itemId": 6,
+                "itemLabel": "Ice tea",
+                "itemImage": "",
+                "itemPrice": 10,
+                "ratings": 2,
+                "category": "Beverage",
+                "itemCuisine": "Beverages",
+                "itemIngredients": "Ice, sugar, mint"
+            },
+            {
+                "itemId": 7,
+                "itemLabel": "Matar Paneer",
+                "itemImage": "",
+                "itemPrice": 600,
+                "ratings": 4,
+                "category": "Food",
+                "discountAvailable": "2% off",
+                "itemCuisine": "North Indian",
+                "itemIngredients": "Paneer, Matar"
+            }
+        ],
+        "filters": {
+            "star": {
+                "name": "star",
+                "label": "Star Rating",
+                "options": [
+                    {
+                        "label": "1 star",
+                        "value": "10",
+                        "selected": false
+                    },
+                    {
+                        "label": "2 star",
+                        "value": "20",
+                        "selected": false
+                    },
+                    {
+                        "label": "3 star",
+                        "value": "30",
+                        "selected": false
+                    },
+                    {
+                        "label": "4 star",
+                        "value": "40",
+                        "selected": false
+                    },
+                    {
+                        "label": "5 star",
+                        "value": "50",
+                        "selected": false
+                    }
+                ]
+            }
+        }
+    }
+}

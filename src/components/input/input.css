@@ -1,0 +1,9 @@
+/* input:invalid {
+    border: 2px solid red;
+  } */
+
+  .inputBox {
+    background-color: #ccc;
+    margin-right: 5px;
+    padding: 5px;
+  }

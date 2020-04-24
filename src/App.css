@@ -1,0 +1,19 @@
+.food-easy-app {
+  text-align: center;
+}
+
+.food-easy-app main{
+  margin: 20px;
+}
+
+
+form, p, ul {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #ccc;
+}
+

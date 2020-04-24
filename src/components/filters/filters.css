@@ -1,0 +1,25 @@
+.food-easy-filters {
+    display: flex;
+    width: 100%;
+    margin-right: 20px;
+    flex-direction: column;
+}
+
+.food-easy-search-form {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+select {
+    background-color: skyblue;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .food-easy-filters {
+        width: 25%;
+        border-right: 2px solid #ccc;
+    }
+}
